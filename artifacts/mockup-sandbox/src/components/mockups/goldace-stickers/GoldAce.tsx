@@ -15,7 +15,7 @@ function AnimatedSticker({ file, label }: { file: string; label: string }) {
     let animation: AnimationItem | null = null;
     let disposed = false;
 
-    fetch(`/__mockup/images/goldace/${file}?v=2`)
+    fetch(`/__mockup/images/goldace/${file}?v=6`)
       .then((response) => {
         if (!response.ok) throw new Error("Sticker preview unavailable");
         return response.json();
