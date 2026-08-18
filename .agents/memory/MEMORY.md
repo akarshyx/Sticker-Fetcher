@@ -1,0 +1,1 @@
+- [Telegram animated sticker recoloring](telegram-sticker-recolor.md) — TGS/Lottie palette edits must cover solid fills and gradient stop arrays.
